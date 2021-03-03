@@ -21,6 +21,8 @@ const Header = () => {
     }
   }, []);
 
+  const email = "naz@hyko.uk"
+
   return (
     <section id="hero" className="jumbotron">
       <Container>
@@ -33,6 +35,16 @@ const Header = () => {
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+          <p className="hero-cta">
+               <a
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 href={`mailto:${email}`}
+                 className="cta-btn cta-btn--hero"
+               >
+                Send us an email
+              </a>
+          </p>
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>

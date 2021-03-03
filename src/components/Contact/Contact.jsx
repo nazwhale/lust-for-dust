@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
@@ -11,8 +10,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <Container>
-        <Title title="Contact" />
-        <Fade bottom duration={1000} delay={800} distance="30px">
+        <Title title="Contact ✉️" />
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
@@ -25,8 +23,10 @@ const Contact = () => {
             >
               {btn || "Let's Talk"}
             </a>
+            <p className="contact-wrapper__text" style={{paddingTop: "2rem"}}>
+              or, call Julie on 07716 898 344
+            </p>
           </div>
-        </Fade>
       </Container>
     </section>
   );
