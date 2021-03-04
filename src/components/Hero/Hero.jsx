@@ -52,8 +52,9 @@ const Header = () => {
               </Link>
             </span>
           </p>
-          <p className="hero-cta" style={{paddingTop: "2rem", fontSize: "2.5rem"}}>
-            or, call Julie on 07737 962 245
+          <p className="hero-cta" style={{paddingTop: "2rem", fontSize: "2.5rem", display: "flex", flexWrap: "wrap", whiteSpace: "pre-wrap"}}>
+             or, call Julie on{" "}
+            <span style={{whiteSpace : "nowrap"}}>07737 962 245</span>
           </p>
         </Fade>
       </Container>

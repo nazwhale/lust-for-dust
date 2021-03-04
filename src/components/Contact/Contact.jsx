@@ -24,7 +24,7 @@ const Contact = () => {
               {btn}
             </a>
             <p className="contact-wrapper__text" style={{paddingTop: "2rem"}}>
-              or, call Julie on 07737 962 245
+              or, call Julie on <span style={{whiteSpace : "nowrap"}}>07737 962 245</span>
             </p>
           </div>
       </Container>
