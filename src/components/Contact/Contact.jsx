@@ -13,18 +13,18 @@ const Contact = () => {
         <Title title="Contact ✉️" />
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
-              {cta || 'Would you like to work with me? Awesome!'}
+              {cta}
             </p>
             <a
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
+              href={`mailto:${email}`}
             >
-              {btn || "Let's Talk"}
+              {btn}
             </a>
             <p className="contact-wrapper__text" style={{paddingTop: "2rem"}}>
-              or, call Julie on 07716 898 344
+              or, call Julie on 07737 962 245
             </p>
           </div>
       </Container>

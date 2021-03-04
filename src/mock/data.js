@@ -28,10 +28,10 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'bridget-mushroom.jpg',
     title: 'Bridget - Newhaven',
-    info: '',
-    info2: '',
+    info: `Lust for Dust have been cleaning my flat in Newhaven for 6 months now and they're the best I've found in Edinburgh.`,
+    info2: `Julie is always a pleasure to see, does an AMAZING job, and I can absolutely trust her. Would highly recommend!`,
     url: '',
     repo: '', // if no repo, the button will not show up
   },
