@@ -22,12 +22,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `Lust For Dust`,
+        short_name: `Lust For Dust`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
-        display: `standalone`,
+        display: `browser`,
         icon: 'src/images/favicon.png',
       },
     },
