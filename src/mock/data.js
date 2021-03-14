@@ -18,10 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Lust for Dust was...',
-  paragraphTwo: 'You can trust us because xyz...',
-  paragraphThree: 'Listen to what our customers say about us below',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: `Hi, we're Lust for Dust and we're based in Edinburgh.`,
+  paragraphTwo: `Our customers say we're friendly, trustworthy, and do a great job.`,
+  paragraphThree: `Feel free to get in touch and arrange a clean today!`,
+  // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -30,26 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'bridget-mushroom.jpg',
     title: 'Bridget - Newhaven',
-    info: `Lust for Dust have been cleaning my flat in Newhaven for over a year now and they're the best I've found in Edinburgh.`,
-    info2: `Julie is always a pleasure to see, does an AMAZING job, and I can absolutely trust her. Would highly recommend!`,
-    url: '',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Clo - Leith',
-    info: '',
-    info2: '',
-    url: '',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Stephen - Granton',
-    info: '',
-    info2: '',
+    info: `"Lust for Dust have been cleaning my flat in Newhaven for over a year now and they're the best I've found in Edinburgh.`,
+    info2: `Julie is always a pleasure to see, does an AMAZING job, and I can absolutely trust her. Would highly recommend!"`,
     url: '',
     repo: '', // if no repo, the button will not show up
   },
